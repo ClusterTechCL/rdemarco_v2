@@ -43,7 +43,7 @@
 
 
 header {
-    background-image: url('./assets/img/RD_LCO2.png');
+    background-image: url('../img/RD_LCO2.png');
     background-size:cover;
     min-height: 400px;
     height: 600px;
@@ -60,7 +60,7 @@ footer {
 }
 
 #vlt {
-    background-image: url('./assets/img/Star-field-vlt.png');
+    background-image: url('../img/Star-field-vlt.png');
     background-size:cover;
     min-height: 400px;
     height: 600px;
