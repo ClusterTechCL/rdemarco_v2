@@ -42,8 +42,16 @@
     }
 
 
-header {
+#headermain {
     background-image: url('../img/RD_LCO2.png');
+    background-size:cover;
+    min-height: 400px;
+    height: 600px;
+    position: relative;
+}
+
+#headerbio {
+    background-image: url('../img/RD_edge2.jpg');
     background-size:cover;
     min-height: 400px;
     height: 600px;
