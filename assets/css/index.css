@@ -63,8 +63,7 @@ article {
     background-image: url(../img/Star-field-vlt.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: topgi;
-    width: 100vw;
+    background-position: top;
     height: 90vh;
 }
 
