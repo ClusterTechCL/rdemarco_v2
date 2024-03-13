@@ -84,7 +84,7 @@ h2 {
 }
 
 article {
-    background-image: url(../img/Star-field-vlt.png);
+    background-image: url("../assets/img/Star-field-vlt.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
