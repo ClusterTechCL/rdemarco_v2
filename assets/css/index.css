@@ -46,3 +46,32 @@ h1 {
     height: 600px;
     position: relative;
 }
+
+main {
+    background-image: url(../img/Star-field-3.png);
+}
+
+h2 {
+    color: white;
+}
+
+.text-home {
+    color: white;
+}
+
+article {
+    background-image: url(../img/Star-field-vlt.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: topgi;
+    width: 100vw;
+    height: 90vh;
+}
+
+footer {
+    background-color: black;
+}
+
+h3, ul li {
+    color: silver;
+}
