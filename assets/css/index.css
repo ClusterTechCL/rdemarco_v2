@@ -4,3 +4,45 @@
     border: 0;
 }
 
+#headermain {
+    background-image: url('../img/RD_LCO2.png');
+    background-position: top;
+    background-size:cover;
+    height: 85vh;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    padding-top: 15%;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.subtitle-header {
+    color: silver;
+    font-size: 23px;
+    font-family: 'Montserrat';
+    font-weight:normal;
+}
+
+
+.nav-link:visited,
+.nav-link:link {
+    border: 2px solid transparent;
+    border-radius: 20px;
+    }
+    
+.nav-link:hover,
+.nav-link:active {
+      border: 2px solid #ffffff;
+      border-radius: 20px;
+    }
+
+#headerbio {
+    background-image: url('../img/RD_edge2.jpg');
+    background-size:cover;
+    min-height: 400px;
+    height: 600px;
+    position: relative;
+}
