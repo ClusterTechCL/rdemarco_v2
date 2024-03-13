@@ -12,7 +12,7 @@
 }
 
 h1 {
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 50px;
     padding-top: 15%;
     font-family: 'Montserrat';
@@ -38,6 +38,30 @@ h1 {
       border: 2px solid #ffffff;
       border-radius: 20px;
     }
+
+#headertravel {
+    background-image: url('../img/IMG_9076.JPG');
+    background-position: top;
+    background-size:cover;
+    height: 60vh;
+}
+
+#headerphot {
+    background-image: url('../img/RD-Hass3.jpg');
+    background-position: 0 20%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+
+h2 {
+    color: black;
+    font-size: 50px;
+    padding-top: 15%;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
 
 #headerbio {
     background-image: url('../img/RD_edge2.jpg');
