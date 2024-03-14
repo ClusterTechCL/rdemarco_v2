@@ -8,24 +8,34 @@
     background-image: url('../img/RD_LCO2.png');
     background-position: top;
     background-size:cover;
-    height: 85vh;
+    height: 100vh;
 }
 
+/*
 h1 {
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 50px;
-    padding-top: 15%;
+    padding-top: 30%;
     font-family: 'Montserrat';
     font-weight: bold;
 }
+*/
 
-.subtitle-header {
-    color: silver;
-    font-size: 23px;
+.homeheader {
     font-family: 'Montserrat';
-    font-weight:normal;
+}
+.homeheader__titulo {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    padding-top: 30%;
+    font-weight: bold;
 }
 
+.homeheader__subtitulo {
+    color: silver;
+    font-size: 23px;
+    font-weight:normal;
+}
 
 .nav-link:visited,
 .nav-link:link {
@@ -39,6 +49,31 @@ h1 {
       border-radius: 20px;
     }
 
+#headertravel {
+    background-image: url('../img/IMG_9076.JPG');
+    background-position: top;
+    background-size:cover;
+    height: 60vh;
+}
+
+#headerphot {
+    background-image: url('../img/RD-Hass3.jpg');
+    background-position: 0 20%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+
+/*
+h2 {
+    color: black;
+    font-size: 50px;
+    padding-top: 15%;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+*/
+
 #headerbio {
     background-image: url('../img/RD_edge2.jpg');
     background-size:cover;
@@ -48,29 +83,59 @@ h1 {
 }
 
 main {
-    background-image: url(../img/Star-field-3.png);
-}
-
-h2 {
-    color: white;
-}
-
-.text-home {
-    color: white;
+    background-image: url("../img/Star-field-3.png");
 }
 
 article {
-    background-image: url(../img/Star-field-vlt.png);
+    background-image: url("../img/Star-field-vlt.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    height: 90vh;
+    height: 93vh;
 }
+
+.resumenhome {
+    color: white;
+}
+
+.resumenhome__titulo {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 3px;
+}
+
+.resumenhome__contenido {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.citahome {
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+}
+
 
 footer {
     background-color: black;
 }
 
-h3, ul li {
+.footersection {
     color: silver;
+}
+
+.footersection__titulo {
+    font-size: 22px;
+    font-weight: 600;
+    padding-left: 5px;
+    color: silver !important;
+}
+
+.footersection__contenido {
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 10px;
 }
