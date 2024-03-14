@@ -4,82 +4,18 @@
     border: 0;
 }
 
-#headermain {
-    background-image: url('../img/RD_LCO2.png');
-    background-position: top;
-    background-size:cover;
-    height: 100vh;
-}
-
-/*
-h1 {
-    color: rgb(255, 255, 255);
-    font-size: 50px;
-    padding-top: 30%;
-    font-family: 'Montserrat';
-    font-weight: bold;
-}
-*/
-
-.homeheader {
-    font-family: 'Montserrat';
-}
-.homeheader__titulo {
-    color: rgb(255, 255, 255);
-    font-size: 50px;
-    padding-top: 30%;
-    font-weight: bold;
-}
-
-.homeheader__subtitulo {
-    color: silver;
-    font-size: 23px;
-    font-weight:normal;
-}
+/* ############ GLOBAL STYLES ############ */
 
 .nav-link:visited,
 .nav-link:link {
     border: 2px solid transparent;
     border-radius: 20px;
-    }
-    
+}
+
 .nav-link:hover,
 .nav-link:active {
-      border: 2px solid #ffffff;
-      border-radius: 20px;
-    }
-
-#headertravel {
-    background-image: url('../img/IMG_9076.JPG');
-    background-position: top;
-    background-size:cover;
-    height: 60vh;
-}
-
-#headerphot {
-    background-image: url('../img/RD-Hass3.jpg');
-    background-position: 0 20%;
-    background-size:cover;
-    background-repeat: no-repeat;
-    height: 60vh;
-}
-
-/*
-h2 {
-    color: black;
-    font-size: 50px;
-    padding-top: 15%;
-    font-family: 'Montserrat';
-    font-weight: bold;
-}
-*/
-
-#headerbio {
-    background-image: url('../img/RD_edge2.jpg');
-    background-size:cover;
-    min-height: 400px;
-    height: 600px;
-    position: relative;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
 }
 
 main {
@@ -92,6 +28,88 @@ article {
     background-repeat: no-repeat;
     background-position: top;
     height: 93vh;
+}
+
+footer {
+    background-color: black;
+}
+
+.footersection {
+    color: silver;
+}
+
+.footersection__titulo {
+    font-size: 22px;
+    font-weight: 600;
+    padding-left: 5px;
+    color: silver !important;
+}
+
+.footersection__contenido {
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 10px;
+}
+
+/*
+h2 {
+    color: black;
+    font-size: 50px;
+    padding-top: 15%;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    padding-top: 30%;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+*/
+
+/* ############ HOME STYLES ############ */
+
+#headermain {
+    background-image: url('../img/RD_LCO2.png');
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+}
+
+.homeheader {
+    font-family: 'Montserrat';
+}
+
+.homeheader__titulo {
+    color: #ffffff;
+    font-size: 50px;
+    padding-top: 30%;
+    font-weight: bold;
+}
+
+.homeheader__subtitulo {
+    color: silver;
+    font-size: 23px;
+    font-weight: normal;
+}
+
+#headertravel {
+    background-image: url('../img/IMG_9076.JPG');
+    background-position: top;
+    background-size: cover;
+    height: 60vh;
+}
+
+#headerphot {
+    background-image: url('../img/RD-Hass3.jpg');
+    background-position: 0 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
 }
 
 .resumenhome {
@@ -116,26 +134,38 @@ article {
     font-weight: 400;
 }
 
+/* ############ PERSONAL BIOGRAPHY STYLES ############ */
 
-footer {
-    background-color: black;
+#headerbio {
+    background-image: url('../img/RD_edge2.jpg');
+    background-size: cover;
+    position: top;
+    height: 100vh;
 }
 
-.footersection {
-    color: silver;
+.biographyheader__titulo {
+    font-family: 'Montserrat';
+    color: #ffffff;
+    font-size: 50px;
+    padding-top: 13%;
+    font-weight: bold;
+    padding-left: 5%;
 }
 
-.footersection__titulo {
-    font-size: 22px;
-    font-weight: 600;
-    padding-left: 5px;
-    color: silver !important;
+.descriptionbiography__contenido {
+    color: white;
 }
 
-.footersection__contenido {
-    font-size: 16px;
-    font-weight: 500;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 10px;
+.videoyoutube__contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    width: 90%;
+    height: 80vh;
+}
+
+.videoyoutube__bajada {
+    color: white;
 }
