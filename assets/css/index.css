@@ -289,6 +289,44 @@ iframe {
     height: 50vh;
 }
 
+/* ######################################## */
+/* ############ HOME 2  STYLES ############ */
+
+#header_home2 {
+    background-image: url('../../img-ex/bg6.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 60% 10%;
+    height: 100vh;
+}
+
+
+#main2 {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-color: rgb(201, 200, 200); 
+    
+
+}
+
+.homeheader, .homeheader--smalldevices {
+    font-family: 'Montserrat';
+}
+
+.homeheader__titulo, .homeheader__titulo--smalldevices {
+    color: #ffffff;
+    font-size: 50px;
+    padding-top: 15%;
+    font-weight: bold;
+}
+
+.homeheader__subtitulo, .homeheader__subtitulo--smalldevices {
+    color: silver;
+    font-size: 23px;
+    font-weight: normal;
+}
+
+}
 
 
 
