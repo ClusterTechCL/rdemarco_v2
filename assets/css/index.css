@@ -74,7 +74,7 @@ h1 {
 /* ############ HOME STYLES ############ */
 
 #headermain {
-    background-image: url('../img/RD_LCO2.png');
+    background-image: url('../img/night_sky3.JPG');
     background-position: top;
     background-size: cover;
     height: 100vh;
@@ -154,15 +154,15 @@ h1 {
 #headerbio {
     background-image: url('../img/RD_edge2.jpg');
     background-size: cover;
-    position: top;
-    height: 100vh;
+    background-position: 30% 8%;
+    height: 50vh;
 }
 
 .biographyheader__titulo {
     font-family: 'Montserrat';
     color: #ffffff;
     font-size: 50px;
-    padding-top: 13%;
+    padding-top: 7%;
     font-weight: bold;
     padding-left: 5%;
 }
@@ -209,6 +209,28 @@ iframe {
 
 .videoyoutube__bajada {
     color: white;
+}
+
+/* ############ PERSONAL Travel STYLES ############ */
+
+.biographytravel__titulo {
+    font-family: 'Montserrat';
+    color: #ffffff;
+    font-size: 50px;
+    padding-top: 7%;
+    font-weight: bold;
+    padding-left: 5%;
+}
+
+/* ############ PERSONAL PHOT STYLES ############ */
+
+.biographyphot__titulo {
+    font-family: 'Montserrat';
+    color: #ffffff;
+    font-size: 50px;
+    padding-top: 7%;
+    font-weight: bold;
+    padding-left: 5%;
 }
 
 
