@@ -74,7 +74,7 @@ h1 {
 /* ############ HOME STYLES ############ */
 
 #headermain {
-    background-image: url('../img/RD_LCO2.png');
+    background-image: url('../img/night_sky3.JPG');
     background-position: top;
     background-size: cover;
     height: 100vh;
@@ -154,15 +154,15 @@ h1 {
 #headerbio {
     background-image: url('../img/RD_edge2.jpg');
     background-size: cover;
-    position: top;
-    height: 100vh;
+    background-position: 30% 8%;
+    height: 50vh;
 }
 
 .biographyheader__titulo {
     font-family: 'Montserrat';
     color: #ffffff;
     font-size: 50px;
-    padding-top: 13%;
+    padding-top: 7%;
     font-weight: bold;
     padding-left: 5%;
 }
@@ -210,3 +210,145 @@ iframe {
 .videoyoutube__bajada {
     color: white;
 }
+
+/* ############ PERSONAL Travel STYLES ############ */
+
+.biographytravel__titulo {
+    font-family: 'Montserrat';
+    color: #ffffff;
+    font-size: 50px;
+    padding-top: 7%;
+    font-weight: bold;
+    padding-left: 5%;
+}
+
+/* ############ PERSONAL PHOT STYLES ############ */
+
+.biographyphot__titulo {
+    font-family: 'Montserrat';
+    color: #ffffff;
+    font-size: 50px;
+    padding-top: 7%;
+    font-weight: bold;
+    padding-left: 5%;
+}
+
+
+/* ############ PERSONAL AERO STYLES ############ */
+
+#headeraero {
+    background-image: url('../img/air2.JPG');
+    background-size: cover;
+    background-position: 80% 40%;
+    height: 50vh;
+}
+
+/* ############ PERSONAL MOUNT STYLES ############ */
+
+#headermount {
+    background-image: url('../img/mountain6.JPG');
+    background-size: cover;
+    background-position: 80% 40%;
+    height: 50vh;
+}
+
+/* ############ PROFESSIONAL RESEARCH STYLES ############ */
+#header_research {
+    background-image: url('../img/vlt.png');
+    background-size: cover;
+    background-position: 80% 60%;
+    height: 50vh;
+}
+
+
+/* ############ PROFESSIONAL CV STYLES ############ */
+#header_cv {
+    background-image: url('../img/ELSUR0530055.jpg');
+    background-size: cover;
+    background-position: 60% 25%;
+    height: 50vh;
+}
+
+/* ############ TEACHING ACADEMIA STYLES ############ */
+#header_academia {
+    background-image: url('../img/teach.png');
+    background-size: cover;
+    background-position: 50% 20%;
+    height: 50vh;
+}
+
+/* ############ TEACHING COURSES STYLES ############ */
+#header_courses {
+    background-image: url('../img/courses_rd.png');
+    background-size: cover;
+    background-position: 50% 10%;
+    height: 50vh;
+}
+
+/* ############ TEACHING OUTREACH STYLES ############ */
+#header_outreach {
+    background-image: url('../img/DSC07239.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 50vh;
+}
+
+/* ############ NEWS STYLES ############ */
+#header_news {
+    /* background-image: url('../img/DSC07239.jpg');*/
+    background-color: black;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 50vh;
+}
+
+/* ############ LINKS STYLES ############ */
+#header_links {
+    /* background-image: url('../img/DSC07239.jpg');*/
+    background-color: black;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 50vh;
+}
+
+/* ######################################## */
+/* ############ HOME 2  STYLES ############ */
+
+#header_home2 {
+    background-image: url('../../img-ex/bg6.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 60% 10%;
+    height: 100vh;
+}
+
+
+#main2 {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-color: rgb(201, 200, 200); 
+    
+
+}
+
+.homeheader, .homeheader--smalldevices {
+    font-family: 'Montserrat';
+}
+
+.homeheader__titulo, .homeheader__titulo--smalldevices {
+    color: #ffffff;
+    font-size: 50px;
+    padding-top: 15%;
+    font-weight: bold;
+}
+
+.homeheader__subtitulo, .homeheader__subtitulo--smalldevices {
+    color: silver;
+    font-size: 23px;
+    font-weight: normal;
+}
+
+}
+
+
+
