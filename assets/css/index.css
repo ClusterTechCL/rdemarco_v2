@@ -210,3 +210,85 @@ iframe {
 .videoyoutube__bajada {
     color: white;
 }
+
+
+/* ############ PERSONAL AERO STYLES ############ */
+
+#headeraero {
+    background-image: url('../img/air2.JPG');
+    background-size: cover;
+    background-position: 80% 40%;
+    height: 50vh;
+}
+
+/* ############ PERSONAL MOUNT STYLES ############ */
+
+#headermount {
+    background-image: url('../img/mountain6.JPG');
+    background-size: cover;
+    background-position: 80% 40%;
+    height: 50vh;
+}
+
+/* ############ PROFESSIONAL RESEARCH STYLES ############ */
+#header_research {
+    background-image: url('../img/vlt.png');
+    background-size: cover;
+    background-position: 80% 60%;
+    height: 50vh;
+}
+
+
+/* ############ PROFESSIONAL CV STYLES ############ */
+#header_cv {
+    background-image: url('../img/ELSUR0530055.jpg');
+    background-size: cover;
+    background-position: 60% 25%;
+    height: 50vh;
+}
+
+/* ############ TEACHING ACADEMIA STYLES ############ */
+#header_academia {
+    background-image: url('../img/teach.png');
+    background-size: cover;
+    background-position: 50% 20%;
+    height: 50vh;
+}
+
+/* ############ TEACHING COURSES STYLES ############ */
+#header_courses {
+    background-image: url('../img/courses_rd.png');
+    background-size: cover;
+    background-position: 50% 10%;
+    height: 50vh;
+}
+
+/* ############ TEACHING OUTREACH STYLES ############ */
+#header_outreach {
+    background-image: url('../img/DSC07239.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 50vh;
+}
+
+/* ############ NEWS STYLES ############ */
+#header_news {
+    /* background-image: url('../img/DSC07239.jpg');*/
+    background-color: black;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 50vh;
+}
+
+/* ############ LINKS STYLES ############ */
+#header_links {
+    /* background-image: url('../img/DSC07239.jpg');*/
+    background-color: black;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 50vh;
+}
+
+
+
+
