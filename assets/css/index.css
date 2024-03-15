@@ -74,8 +74,8 @@ h1 {
 /* ############ HOME STYLES ############ */
 
 #headermain {
-    background-image: url('../img/night_sky3.JPG');
-    background-position: top;
+    background-image: url('../img/ELSUR0530055.jpg');
+    background-position: 60% 10%;
     background-size: cover;
     height: 100vh;
 }
@@ -92,16 +92,18 @@ h1 {
 }
 
 .homeheader__titulo, .homeheader__titulo--smalldevices {
-    color: #ffffff;
+    color: black;
     font-size: 50px;
-    padding-top: 30%;
+    padding-top: 10%;
     font-weight: bold;
+    padding-left: 10%;
 }
 
 .homeheader__subtitulo, .homeheader__subtitulo--smalldevices {
     color: silver;
     font-size: 23px;
     font-weight: normal;
+    padding-left: 10%;
 }
 .homeheader__titulo--smalldevices {
     font-size: 30px;
@@ -315,7 +317,7 @@ iframe {
 /* ############ HOME 2  STYLES ############ */
 
 #header_home2 {
-    background-image: url('../../img-ex/bg6.jpg'); 
+    background-image: url("../img/ELSUR0530055.jpg"); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 60% 10%;
@@ -324,7 +326,7 @@ iframe {
 
 
 #main2 {
-    background-image: none;
+    background-image: url("../../img-ex/bg6.jpg");
     background-repeat: no-repeat;
     background-color: rgb(201, 200, 200); 
 }
